@@ -1,0 +1,202 @@
+.fx-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    align-content: center;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+
+.fx-row .fx-col {
+    flex: 1 1 auto;
+    margin: 0 15px;
+}
+
+.fx-row .fx-col:first-child {
+    margin-left: 0px;
+}
+
+.fx-row .fx-col:last-child {
+    margin-right: 0px;
+}
+
+.fx-row .fx-col-1 {
+    flex: 1 1 8.33333333%;
+    overflow: auto;
+    overflow-wrap: break-word;
+    margin: 0 15px;
+}
+
+.fx-row .fx-col-1:first-child {
+    margin-left: 0px;
+}
+
+.fx-row .fx-col-1:last-child {
+    margin-right: 0px;
+}
+
+.fx-row .fx-col-2 {
+    flex: 1 1 16.66666667%;
+    overflow: auto;
+    overflow-wrap: break-word;
+    margin: 0 15px;
+}
+
+.fx-row .fx-col-2:first-child {
+    margin-left: 0px;
+}
+
+.fx-row .fx-col-2:last-child {
+    margin-right: 0px;
+}
+
+.fx-row .fx-col-3 {
+    flex: 1 1 25%;
+    overflow: auto;
+    overflow-wrap: break-word;
+    margin: 0 15px;
+}
+
+.fx-row .fx-col-3:first-child {
+    margin-left: 0px;
+}
+
+.fx-row .fx-col-3:last-child {
+    margin-right: 0px;
+}
+
+.fx-row .fx-col-4 {
+    flex: 1 1 33.33333333%;
+    overflow: auto;
+    overflow-wrap: break-word;
+    margin: 0 15px;
+}
+
+.fx-row .fx-col-4:first-child {
+    margin-left: 0px;
+}
+
+.fx-row .fx-col-4:last-child {
+    margin-right: 0px;
+}
+
+.fx-row .fx-col-5 {
+    flex: 1 1 41.66666667%;
+    overflow: auto;
+    overflow-wrap: break-word;
+    margin: 0 15px;
+}
+
+.fx-row .fx-col-5:first-child {
+    margin-left: 0px;
+}
+
+.fx-row .fx-col-5:last-child {
+    margin-right: 0px;
+}
+
+.fx-row .fx-col-6 {
+    flex: 1 1 50%;
+    overflow: auto;
+    overflow-wrap: break-word;
+    margin: 0 15px;
+}
+
+.fx-row .fx-col-6:first-child {
+    margin-left: 0px;
+}
+
+.fx-row .fx-col-6:last-child {
+    margin-right: 0px;
+}
+
+.fx-row .fx-col-7 {
+    flex: 1 1 58.33333333%;
+    overflow: auto;
+    overflow-wrap: break-word;
+    margin: 0 15px;
+}
+
+.fx-row .fx-col-7:first-child {
+    margin-left: 0px;
+}
+
+.fx-row .fx-col-7:last-child {
+    margin-right: 0px;
+}
+
+.fx-row .fx-col-8 {
+    flex: 1 1 66.66666667%;
+    overflow: auto;
+    overflow-wrap: break-word;
+    margin: 0 15px;
+}
+
+.fx-row .fx-col-8:first-child {
+    margin-left: 0px;
+}
+
+.fx-row .fx-col-8:last-child {
+    margin-right: 0px;
+}
+
+.fx-row .fx-col-9 {
+    flex: 1 1 75%;
+    overflow: auto;
+    overflow-wrap: break-word;
+    margin: 0 15px;
+}
+
+.fx-row .fx-col-9:first-child {
+    margin-left: 0px;
+}
+
+.fx-row .fx-col-9:last-child {
+    margin-right: 0px;
+}
+
+.fx-row .fx-col-10 {
+    flex: 1 1 83.33333333%;
+    overflow: auto;
+    overflow-wrap: break-word;
+    margin: 0 15px;
+}
+
+.fx-row .fx-col-10:first-child {
+    margin-left: 0px;
+}
+
+.fx-row .fx-col-10:last-child {
+    margin-right: 0px;
+}
+
+.fx-row .fx-col-11 {
+    flex: 1 1 91.66666667%;
+    overflow: auto;
+    overflow-wrap: break-word;
+    margin: 0 15px;
+}
+
+.fx-row .fx-col-11:first-child {
+    margin-left: 0px;
+}
+
+.fx-row .fx-col-11:last-child {
+    margin-right: 0px;
+}
+
+.fx-row .fx-col-12 {
+    flex: 1 1 100%;
+    overflow: auto;
+    overflow-wrap: break-word;
+    margin: 0 15px;
+}
+
+.fx-row .fx-col-12:first-child {
+    margin-left: 0px;
+}
+
+.fx-row .fx-col-12:last-child {
+    margin-right: 0px;
+}

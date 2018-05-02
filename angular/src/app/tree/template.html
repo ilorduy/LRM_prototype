@@ -1,0 +1,33 @@
+﻿
+<nav>
+  
+  <div class="navbar-default sidebar" role="navigation" style="margin-top: 0px; left: 0px;">
+    <div class="sidebar-nav navbar-collapse">
+      <ul class="nav" id="side-menu" style="    border-right: solid 1px #e7e7e7;">
+        <li *ngFor="let option of options">
+          <a (click)="option.collapsed = !option.collapsed"> {{option.Entrypoint}}<span [ngClass]="(option.collapsed ? 'fa fa-angle-left':'fa fa-angle-down')" style="float:right;"></span></a>
+          <ul [ngClass]="(option.collapsed ? 'nav nav-second-level collapse':'nav nav-second-level')">
+            <li *ngFor="let option2 of option.nodes">
+
+              <a (click)="option2.collapsed = !option2.collapsed"> {{option2.TemplateGrouping}}<span [ngClass]="(option2.collapsed ? 'fa fa-angle-left':'fa fa-angle-down')" style="float:right;"></span></a>
+              <ul [ngClass]="(option2.collapsed ? 'nav nav-third-level collapse':'nav nav-third-level')">
+                <li *ngFor="let option3 of option2.nodes">
+                  
+                  <a (click)="option3.collapsed = !option3.collapsed"> {{option3.TemplateCode}}<span [ngClass]="(option3.collapsed ? 'fa fa-angle-left':'fa fa-angle-down')" style="float:right;"></span></a>
+                  <ul [ngClass]="(option3.collapsed ? 'nav nav-fourth-level collapse':'nav nav-fourth-level')">
+                    <li *ngFor="let option4 of option3.nodes">
+                      <a>{{option4.TableVersionLabel}} <i class="fa fa-check" style="color:#35ea80;" aria-hidden="true"></i></a>
+                      <!-- <a routerLink="{{option2.name}}" routerLinkActive="active">{{option2.text}}</a>-->
+                    </li>
+                  </ul>
+
+                </li>
+              </ul>
+              
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

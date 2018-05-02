@@ -1,0 +1,112 @@
+﻿<style>
+
+  #page-wrapper-report {
+  padding: 0 15px;
+  min-height: 568px;
+  background-color: white;
+}
+@media (min-width: 768px) {
+  #page-wrapper-report {
+    position: inherit;
+    margin: 0 0 0 350px;
+    padding: 0 30px;
+    /*border-left: 1px solid #e7e7e7;*/
+  }
+}
+
+  label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight:  100;
+}
+
+  .label-filter {
+    width:65px;
+  }
+  .input-filter {
+    width:130px;
+  }
+  .box-filter {
+    width:135px;
+    margin-bottom:10px;
+    margin-right:5px;
+  }
+
+</style>
+
+<tree style="padding-left: 0px; margin-top: 0px; margin-bottom: 0px;"></tree>
+<div id="page-wrapper-report">
+  <div class="col-sm-12 form-inline" style="margin-top:10px;">
+    <div class="form-group box-filter">
+      <label class="label-filter" for="fundGenerate">Form: </label>
+      <select class="form-control input-filter" [(ngModel)]="currentForm" (change)="selectForm()">
+        <option [ngValue]=""></option>
+        <option *ngFor="let item of forms" [ngValue]="item.name">{{item.name}}</option>
+      </select>
+    </div>
+
+    <div class="form-group box-filter">
+      <label class="label-filter" for="fundGenerate">Sheet: </label>
+      <select class="form-control input-filter" [(ngModel)]="currentSheet">
+        <option [ngValue]=""></option>
+        <option *ngFor="let item of sheets" [ngValue]="item.SheetCode">{{item.SheetDescription}}</option>
+      </select>
+    </div>
+    <div class="form-group box-filter">
+      <label class="label-filter" for="fundGenerate">Entity: </label>
+      <select class="form-control input-filter">
+        <option [ngValue]=""></option>
+        <option *ngFor="let entity of entities" [ngValue]="entity">{{entity.entity}}</option>
+      </select>
+    </div>
+    <div class="form-group box-filter">
+      <label class="label-filter" for="fundGenerate">Period: </label>
+      <select class="form-control input-filter">
+        <option [ngValue]=""></option>
+        <option *ngFor="let period of periods" [ngValue]="fund">{{period.period}}</option>
+      </select>
+    </div>
+    <div class="form-group box-filter">
+      <label class="label-filter" for="fundGenerate">View: </label>
+      <select class="form-control input-filter">
+        <option [ngValue]=""></option>
+        <option *ngFor="let view of views" [ngValue]="fund">{{view.view}}</option>
+      </select>
+    </div>
+    <div class="form-group box-filter">
+      <label class="label-filter" for="fundGenerate">IC: </label>
+      <input class="form-control input-filter" />
+    </div>
+    <div class="form-group box-filter">
+      <label class="label-filter" for="fundGenerate">Currency: </label>
+      <input class="form-control input-filter" />
+    </div>
+    <div class="form-group box-filter">
+      <label class="label-filter" for="fundGenerate">Source: </label>
+      <select class="form-control input-filter">
+        <option [ngValue]=""></option>
+        <option *ngFor="let source of sources" [ngValue]="fund">{{source.source}}</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <button (click)="load()" class="btn btn-info" style="top: 6px; position: relative;">Load</button>
+    </div>
+  </div>
+  <div class="col-sm-12" style="margin-top:20px;">
+    <!--<ag-grid-angular class="ag-theme-material grid-size"
+                      [(rowData)]="rowData"
+                      [(columnDefs)]="columnDefs"
+                      [(gridOptions)]="gridOptions">
+    </ag-grid-angular>-->
+    <hot-table hotId="hotInstance"
+               [colHeaders]="colHeaders"
+               [rowHeaders]="rowHeaders"
+               [manualColumnResize]="manualColumnResize"
+               [manualRowResize]="manualRowResize"
+               [mergeCells]="mergeCells"
+               [data]="data"></hot-table>
+  </div>
+</div>
+
+        

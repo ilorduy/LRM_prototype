@@ -1,0 +1,15 @@
+﻿<div class="fx-row header" [style.background]="'#004D71'" [style.margin]="'0'">
+    <div class="logo">
+        <img src="assets/LOGOIFBW.png" />
+    </div>
+    <div class="titleApp">
+        <label>Welcome</label>
+    </div>
+    <div class="mainnav">
+        <nav mat-tab-nav-bar>
+            <a mat-tab-link [routerLink]="'app-lrm-report'" routerLinkActive #rla2="routerLinkActive" [active]="rla2.isActive">LRM REPORTING</a>
+            <a mat-tab-link [routerLink]="'app-globe-report'" routerLinkActive #rla3="routerLinkActive" [active]="rla3.isActive">GLOBE REPORTING</a>
+            <a mat-tab-link [routerLink]="'app-lcr-report'" routerLinkActive #rla4="routerLinkActive" [active]="rla4.isActive">LCR REPORTING</a>
+        </nav>
+    </div>
+</div>

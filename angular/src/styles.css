@@ -1,0 +1,90 @@
+@import '~handsontable/dist/handsontable.full.css';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+#wrapper {
+    background-color: #f6f6f6;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    height: 150px;
+}
+
+app-lrm-report mat-card {
+    position: relative;
+    top: -50px;
+    margin: 0px 30px;
+}
+
+app-globe-report mat-card {
+    position: relative;
+    top: -50px;
+    margin: 0px 30px;
+}
+
+.text-right>div>div>span.ag-header-cell-text {
+    width: 100%;
+    text-align: right;
+}
+
+.logo>img {
+    height: 45px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.mainnav>nav {
+    padding: 25px 32px 0 0;
+    border-bottom: 0;
+}
+
+.mainnav>nav>div>mat-ink-bar {
+    height: 5px;
+    background-color: #ffffff!important;
+}
+
+.mainnav>nav>div>a {
+    color: rgba(255, 255, 255, 0.54)!important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.mainnav>nav>div>a:active {
+    color: rgba(255, 255, 255, 1)!important;
+}
+
+.mainnav>nav>div>a:focus {
+    color: rgba(255, 255, 255, 0.80)!important;
+    background-color: rgb(0, 77, 113)!important;
+}
+
+.titleApp>label {
+    color: #ffffff;
+}
+
+.titleApp>label:first-child {
+    position: absolute;
+    left: 180px;
+    top: 45px;
+    font-size: smaller;
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.titleApp>label:last-child {
+    position: absolute;
+    left: 180px;
+    top: 60px;
+}
+
+mat-card.mat-card {
+    border-radius: 6px;
+}
+
+mat-card>mat-card-header>div>mat-card-title.mat-card-title {
+    font-size: 18px !important;
+    color: #004d71;
+    font-weight: bold;
+}

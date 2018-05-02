@@ -1,0 +1,57 @@
+﻿<mat-card class="contentUp">
+    <mat-card-header>
+        <mat-card-title>
+            {{'LCR Reporting'}}</mat-card-title>
+        <div class="graphicInfo">
+            <label>HQLA:</label>
+            <a>{{strHQLA}}</a>
+            <label>NCO:</label>
+            <a> {{strNCO}}</a>
+            <label>LCR:</label>
+            <a> {{strLCR}}</a>
+        </div>
+    </mat-card-header>
+    <mat-card-content>
+        <div class="fx-row">
+            <div class="fx-col-4">
+                <div id='myChart4' (click)="openDialog(4)"></div>
+            </div>
+            <div class="fx-col-4">
+                <div id='myChart1' (click)="openDialog(1)"></div>
+            </div>
+            <div class="fx-col-4">
+                <div id='myChart5' (click)="openDialog(5)"></div>
+            </div>
+        </div>
+
+        <div class="fx-row">
+            <div class="fx-col-4">
+                <div id='myChart2' (click)="openDialog(2)"></div>
+            </div>
+            <div class="fx-col-4">
+                <div id='myChart3' (click)="openDialog(3)"></div>
+            </div>
+            <div class="fx-col-4">
+                <div id='myChart6' (click)="openDialog(6)"></div>
+            </div>
+        </div>
+
+        <!-- <div [@asset]="assetState" class="fx-row">
+            <div class="fx-col-4">
+                <div id='myChart1'></div>
+            </div>
+            <div class="fx-col-4">
+                <div id='myChart2'></div>
+            </div>
+            <div class="fx-col-4">
+                <div id='myChart3'></div>
+            </div>
+        </div>
+
+        <div [@inout]="inOutState" class="fx-row">
+            <div class="fx-col-12">
+                <div id='myChart6'></div>
+            </div>
+        </div> -->
+    </mat-card-content>
+</mat-card>

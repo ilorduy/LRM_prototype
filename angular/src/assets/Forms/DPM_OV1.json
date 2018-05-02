@@ -1,0 +1,481 @@
+﻿{
+  "form": "OV1",
+  "columns": [
+    {
+      "ColumnCode": "010",
+      "ColumnDescription": "RWA"
+    },
+    {
+      "ColumnCode": "020",
+      "ColumnDescription": "mcr"
+    }
+  ],
+  "rows": [
+    {
+      "RowCode": "010",
+      "RowDescription": "Credit risk (excluding counterparty credit risk) (CCR)"
+    },
+    {
+      "RowCode": "020",
+      "RowDescription": "Of which standardised approach (SA)"
+    },
+    {
+      "RowCode": "030",
+      "RowDescription": "Of which internal rating-based (IRB) approach"
+    },
+    {
+      "RowCode": "040",
+      "RowDescription": "Counterparty credit risk"
+    },
+    {
+      "RowCode": "050",
+      "RowDescription": "Of which standardised approach for counterparty credit risk (SA-CCR)"
+    },
+    {
+      "RowCode": "060",
+      "RowDescription": "Of which internal model method (IMM)"
+    },
+    {
+      "RowCode": "070",
+      "RowDescription": "Equity positions in banking book under market-based approach"
+    },
+    {
+      "RowCode": "080",
+      "RowDescription": "Equity investments in funds – look-through approach"
+    },
+    {
+      "RowCode": "090",
+      "RowDescription": "Equity investments in funds – mandate-based approach"
+    },
+    {
+      "RowCode": "100",
+      "RowDescription": "Equity investments in funds – fall-back approach"
+    },
+    {
+      "RowCode": "110",
+      "RowDescription": "Settlement risk"
+    },
+    {
+      "RowCode": "120",
+      "RowDescription": "Securitisation exposures in banking book"
+    },
+    {
+      "RowCode": "130",
+      "RowDescription": "Of which IRB ratings-based approach (RBA)"
+    },
+    {
+      "RowCode": "140",
+      "RowDescription": "Of which IRB Supervisory Formula Approach (SFA)"
+    },
+    {
+      "RowCode": "150",
+      "RowDescription": "Of which SA/simplified supervisory formula approach (SSFA)"
+    },
+    {
+      "RowCode": "160",
+      "RowDescription": "Market risk"
+    },
+    {
+      "RowCode": "170",
+      "RowDescription": "Total"
+    }
+  ],
+  "sheets": [
+
+  ],
+  "cells": [
+    {
+
+      "RowCode": "010",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1370"
+    },
+    {
+
+      "RowCode": "010",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1371"
+    },
+
+    {
+
+      "RowCode": "020",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1373"
+    },
+    {
+
+      "RowCode": "030",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1374"
+    },
+    {
+
+      "RowCode": "030",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1375"
+    },
+    {
+
+      "RowCode": "040",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1376"
+    },
+    {
+
+      "RowCode": "040",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1377"
+    },
+    {
+
+      "RowCode": "050",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1378"
+    },
+    {
+
+      "RowCode": "050",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1379"
+    },
+    {
+
+      "RowCode": "060",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1380"
+    },
+    {
+
+      "RowCode": "060",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1381"
+    },
+    {
+
+      "RowCode": "070",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1382"
+    },
+    {
+
+      "RowCode": "070",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1383"
+    },
+    {
+
+      "RowCode": "080",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1384"
+    },
+    {
+
+      "RowCode": "080",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1385"
+    },
+    {
+
+      "RowCode": "090",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1386"
+    },
+    {
+
+      "RowCode": "090",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1387"
+    },
+    {
+
+      "RowCode": "100",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1388"
+    },
+    {
+
+      "RowCode": "100",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1389"
+    },
+    {
+
+      "RowCode": "110",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1390"
+    },
+    {
+
+      "RowCode": "110",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1391"
+    },
+    {
+
+      "RowCode": "120",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1392"
+    },
+    {
+
+      "RowCode": "120",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1393"
+    },
+    {
+
+      "RowCode": "130",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1394"
+    },
+    {
+
+      "RowCode": "130",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1395"
+    },
+    {
+
+      "RowCode": "140",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1396"
+    },
+    {
+
+      "RowCode": "140",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1397"
+    },
+    {
+
+      "RowCode": "150",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1398"
+    },
+    {
+
+      "RowCode": "150",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1399"
+    },
+    {
+
+      "RowCode": "160",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1400"
+    },
+    {
+
+      "RowCode": "160",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1401"
+    },
+    {
+
+      "RowCode": "170",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1402"
+    },
+    {
+
+      "RowCode": "170",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1403"
+    },
+    {
+
+      "RowCode": "180",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1404"
+    },
+    {
+
+      "RowCode": "180",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1405"
+    },
+    {
+
+      "RowCode": "190",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1406"
+    },
+    {
+
+      "RowCode": "190",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1407"
+    },
+    {
+
+      "RowCode": "200",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1408"
+    },
+    {
+
+      "RowCode": "200",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1409"
+    },
+    {
+
+      "RowCode": "210",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1410"
+    },
+    {
+
+      "RowCode": "210",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1411"
+    },
+    {
+
+      "RowCode": "220",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1412"
+    },
+    {
+
+      "RowCode": "220",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1413"
+    },
+    {
+
+      "RowCode": "230",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1414"
+    },
+    {
+
+      "RowCode": "230",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1415"
+    },
+    {
+
+      "RowCode": "240",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1416"
+    },
+    {
+
+      "RowCode": "240",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1417"
+    },
+    {
+
+      "RowCode": "250",
+      "ColumnCode": "010",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1418"
+    },
+    {
+
+      "RowCode": "250",
+      "ColumnCode": "020",
+      "SheetCode": "",
+      "DataTypeLabel": "amount",
+      "CellID": "1419"
+    }
+  ]
+}

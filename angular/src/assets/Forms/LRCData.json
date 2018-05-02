@@ -1,0 +1,306 @@
+{
+    "data": {
+        "asset1": [{
+                "name": "coins_and_banknotes",
+                "value": 110000,
+                "Percentage": 100
+            },
+            {
+                "name": "securities",
+                "value": 516829,
+                "Percentage": 100
+            },
+            {
+                "name": "central bank reserves",
+                "value": 220000,
+                "Percentage": 100
+            }
+        ],
+        "asset2": {
+            "asset2A": [{
+                    "name": "Marketable securities representing claims on or guaranteed by sovereigns, central banks, PSEs or multilateral development with a risk weight of 20%",
+                    "value": 60000,
+                    "Percentage": 85
+                },
+                {
+                    "name": "Corporate debt securities credit rating at least AA–",
+                    "value": 300000,
+                    "Percentage": 85
+                },
+                {
+                    "name": "covered bonds credit rating at least AA–",
+                    "value": 1200000,
+                    "Percentage": 85
+                }
+            ],
+            "asset2B": [{
+                    "name": "Residential mortgage backed securities (RMBS)",
+                    "value": 350000,
+                    "Percentage": 75
+                },
+                {
+                    "name": "Corporate debt securities credit rating of between A+ and BBB-",
+                    "value": 220000,
+                    "Percentage": 50
+                },
+                {
+                    "name": "Common equity shares",
+                    "value": 80000,
+                    "Percentage": 50
+                }
+            ]
+        }
+    },
+    "data2": {
+        "Inflow": [{
+                "value": 0,
+                "date": "10/01/2017"
+            },
+            {
+                "value": 233972.3708,
+                "date": "10/02/2017"
+            },
+            {
+                "value": 76038.00535,
+                "date": "10/03/2017"
+            },
+            {
+                "value": 420968.6034,
+                "date": "10/04/2017"
+            },
+            {
+                "value": 79661.4933,
+                "date": "10/05/2017"
+            },
+            {
+                "value": 145201.1167,
+                "date": "10/06/2017"
+            },
+            {
+                "value": 0,
+                "date": "10/07/2017"
+            },
+            {
+                "value": 0,
+                "date": "10/08/2017"
+            },
+            {
+                "value": 177538.6979,
+                "date": "10/09/2017"
+            },
+            {
+                "value": 90422.15224,
+                "date": "10/10/2017"
+            },
+            {
+                "value": 47537.39771,
+                "date": "10/11/2017"
+            },
+            {
+                "value": 74333.294,
+                "date": "10/12/2017"
+            },
+            {
+                "value": 9410.806244,
+                "date": "10/13/2017"
+            },
+            {
+                "value": 0,
+                "date": "10/14/2017"
+            },
+            {
+                "value": 0,
+                "date": "10/15/2017"
+            },
+            {
+                "value": 68738.94059,
+                "date": "10/16/2017"
+            },
+            {
+                "value": 210013.6852,
+                "date": "10/17/2017"
+            },
+            {
+                "value": 372922.071,
+                "date": "10/18/2017"
+            },
+            {
+                "value": 345572.0683,
+                "date": "10/19/2017"
+            },
+            {
+                "value": 57883.79797,
+                "date": "10/20/2017"
+            },
+            {
+                "value": 0,
+                "date": "10/21/2017"
+            },
+            {
+                "value": 0,
+                "date": "10/22/2017"
+            },
+            {
+                "value": 226087.7024,
+                "date": "10/23/2017"
+            },
+            {
+                "value": 106484.0783,
+                "date": "10/24/2017"
+            },
+            {
+                "value": 46790.10615,
+                "date": "10/25/2017"
+            },
+            {
+                "value": 230010.4438,
+                "date": "10/26/2017"
+            },
+            {
+                "value": 98460.60336,
+                "date": "10/27/2017"
+            },
+            {
+                "value": 0,
+                "date": "10/28/2017"
+            },
+            {
+                "value": 0,
+                "date": "10/29/2017"
+            },
+            {
+                "value": 107952.9368,
+                "date": "10/30/2017"
+            },
+            {
+                "value": 273999.6286,
+                "date": "10/31/2017"
+            }
+        ],
+        "Outflow": [{
+                "value": 0,
+                "date": "10/01/2017"
+            },
+            {
+                "value": -5341.205971,
+                "date": "10/02/2017"
+            },
+            {
+                "value": -88618.49445,
+                "date": "10/03/2017"
+            },
+            {
+                "value": -161995.3386,
+                "date": "10/04/2017"
+            },
+            {
+                "value": -248810.8168,
+                "date": "10/05/2017"
+            },
+            {
+                "value": -315049.7418,
+                "date": "10/06/2017"
+            },
+            {
+                "value": 0,
+                "date": "10/07/2017"
+            },
+            {
+                "value": 0,
+                "date": "10/08/2017"
+            },
+            {
+                "value": -375373.9487,
+                "date": "10/09/2017"
+            },
+            {
+                "value": -200821.9677,
+                "date": "10/10/2017"
+            },
+            {
+                "value": -230396.6391,
+                "date": "10/11/2017"
+            },
+            {
+                "value": -153271.2071,
+                "date": "10/12/2017"
+            },
+            {
+                "value": -3651.614794,
+                "date": "10/13/2017"
+            },
+            {
+                "value": 0,
+                "date": "10/14/2017"
+            },
+            {
+                "value": 0,
+                "date": "10/15/2017"
+            },
+            {
+                "value": -39513.08276,
+                "date": "10/16/2017"
+            },
+            {
+                "value": -244944.7053,
+                "date": "10/17/2017"
+            },
+            {
+                "value": -224494.1121,
+                "date": "10/18/2017"
+            },
+            {
+                "value": -4294.452642,
+                "date": "10/19/2017"
+            },
+            {
+                "value": -295776.5834,
+                "date": "10/20/2017"
+            },
+            {
+                "value": 0,
+                "date": "10/21/2017"
+            },
+            {
+                "value": 0,
+                "date": "10/22/2017"
+            },
+            {
+                "value": -345854.5317,
+                "date": "10/23/2017"
+            },
+            {
+                "value": -304364.8508,
+                "date": "10/24/2017"
+            },
+            {
+                "value": -161267.052,
+                "date": "10/25/2017"
+            },
+            {
+                "value": -79248.44538,
+                "date": "10/26/2017"
+            },
+            {
+                "value": -192590.716,
+                "date": "10/27/2017"
+            },
+            {
+                "value": 0,
+                "date": "10/28/2017"
+            },
+            {
+                "value": 0,
+                "date": "10/29/2017"
+            },
+            {
+                "value": -39247.54519,
+                "date": "10/30/2017"
+            },
+            {
+                "value": -285072.9476,
+                "date": "10/31/2017"
+            }
+        ]
+    }
+}

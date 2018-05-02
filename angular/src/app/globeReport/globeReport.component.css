@@ -1,0 +1,26 @@
+.land {
+    fill: green
+}
+
+.graticule {
+    fill-opacity: 0;
+    stroke: gray;
+    stroke-opacity: 0.5;
+}
+
+.point {
+    stroke: red;
+    fill-opacity: 0.2;
+    fill: white;
+}
+
+canvas {
+    position: initial;
+}
+
+#currentInfo {
+    width: 270px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 10px;
+}
